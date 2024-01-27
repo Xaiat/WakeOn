@@ -11,6 +11,10 @@ and ascertain the readiness of specific ports.
 WakeOn 是一个能够通过在局域网内执行命令来唤醒目标电脑的软件程序。此外，它还能检测目标电脑是否已完
 成启动，并确定特定端口的准备就绪状态。
 Font: Merriweather
+Font size: 30
+Font color: #000000FF
+Multiline: Each sentence on a new line
+Width ✕ Height: 1500 ✕ 185
 https://readme-typing-svg.herokuapp.com/demo/
 -->
 
