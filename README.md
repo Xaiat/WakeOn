@@ -9,14 +9,6 @@ WakeOn 是一个可以在本地局域网内通过命令唤醒目标电脑的SH�
 *A single track trail outside of Albuquerque, New Mexico.*
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-```mermaid
 sequenceDiagram
     participant Alice
     participant Bob
