@@ -5,7 +5,7 @@ WakeOn 是一个可以在本地局域网内通过命令唤醒目标电脑的SH�
 
 # Wake On LAN for 14900k-1517 Workstation
 
-![Albuquerque, New Mexico](https://mdg.imgix.net/assets/images/albuquerque.jpg?auto=format&fit=clip&q=40&w=1080)
+![Albuquerque, New Mexico](https://mdg.imgix.net/assets/images/albuquerque.jpg)
 *A single track trail outside of Albuquerque, New Mexico.*
 
 # 1.==== Create a New Script ====
