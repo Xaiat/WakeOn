@@ -8,6 +8,8 @@ WakeOn 是一个可以在本地局域网内通过命令唤醒目标电脑的SH�
 ![Albuquerque, New Mexico](https://mdg.imgix.net/assets/images/albuquerque.jpg)
 *A single track trail outside of Albuquerque, New Mexico.*
 
+![The San Juan Mountains are beautiful!](https://mdg.imgix.net/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
 ```mermaid
 sequenceDiagram
     participant Alice
