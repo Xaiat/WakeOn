@@ -8,6 +8,29 @@ WakeOn 是一个可以在本地局域网内通过命令唤醒目标电脑的SH�
 ![Albuquerque, New Mexico](https://mdg.imgix.net/assets/images/albuquerque.jpg)
 *A single track trail outside of Albuquerque, New Mexico.*
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice→>>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts
+    <br/>prevail...
+    John—->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-→>>John: Jolly good!|
+```
+
 # 1.==== Create a New Script ====
 The example path:
 /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh
