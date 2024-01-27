@@ -62,10 +62,20 @@ wakeonlan 58:11:22:d8:21:e3
 # 2. Ping 192.168.1.15 and wait for the network response
 # 2. Ping 192.168.1.15，并等待网络响应
 echo "==== Step 2/3 Ping ===="
+# This variable keeps track of the counter value.
+# 这个 counter 变量用于跟踪计数器的值。
 counter=0
+# This variable keeps track of the start time.
+# 这个 start_time 变量用于跟踪开始时间。
 start_time=$(date +%s)
+# This loop will run until the device responds to ping.
+# 这个循环将一直运行，直到设备响应 ping。
 while ! ping -c 1 192.168.1.15 &> /dev/null; do
+    # Increment counter at the start of each loop
+    # 在每次循环开始时增加计数器
     now=$(date +%s)
+    # Calculate the elapsed time in seconds
+    # 计算经过的时间（秒）
     counter=$((now - start_time))
     # Print waiting message without generating new lines, showing elapsed time in seconds
     # 打印等待消息，不产生新行，并显示经过的时间（秒）
@@ -85,23 +95,24 @@ echo "设备 192.168.1.15 已响应"
 # 3. Check if port 22 is open for SSH connection
 # 3. 检测端口 22 是否开放，用于 SSH 连接
 echo "==== Step 3/3 Check Port 22 ===="
+# This variable keeps track of the counter value.
+# 这个 counter 变量用于跟踪计数器的值。
 counter=0
-while true; do
+# This loop will run until port 22 is open.
+# 这个循环将一直运行，直到端口 22 开放。
+while ! nc -z 192.168.1.15 22; do
     # Increment counter at the start of each loop
     # 在每次循环开始时增加计数器
     counter=$((counter+1))
     # Print waiting message without generating new lines, showing elapsed time in seconds
     # 打印等待消息，不产生新行，并显示经过的时间（秒）
     printf "\rWaiting for port 22 to open... 等待端口 22 开放... %d" "$counter"
-
-    if nc -z 192.168.1.15 22; then
-        # When connection succeeds, move to a new line and break the loop
-        # 当连接成功时，换行并跳出循环
-        printf "\n"
-        break
-    fi
     sleep 1
 done
+
+# Move to a new line after the loop finishes to separate the connection success message
+# 在循环结束后换行，以便于将连接成功的消息单独显示
+printf "\n"
 
 # Flash a message on the screen and make a sound when port 22 is open
 # 当端口 22 开放时，在屏幕上发出闪烁提示，并发出声音提示
