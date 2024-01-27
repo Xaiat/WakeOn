@@ -16,7 +16,8 @@ https://readme-typing-svg.herokuapp.com/demo/
 
 ## Example: Wake On LAN for 14900k-1517 Workstation
 
-![](./assets/Wake%20On%20LAN%20for%2014900k-1517.gif)
+![Wake On LAN for 14900k-1517](./assets/Wake-On-LAN-for-14900k-1517.gif)
+*Wake On LAN for 14900k-1517.*
 
 ![Albuquerque, New Mexico](https://mdg.imgix.net/assets/images/albuquerque.jpg)
 *A single track trail outside of Albuquerque, New Mexico.*
