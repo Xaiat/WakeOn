@@ -13,8 +13,8 @@ The example path:
 /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh
 
 ```console
-$ mkdir /Users/rolex/Code/WakeOn/
-$ vim /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh
+mkdir /Users/rolex/Code/WakeOn/
+vim /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh
 ```
 ```sh
 #!/bin/bash
@@ -86,13 +86,13 @@ echo -e "\a"
 ```
 # 2. ==== Permissions Command ====
 ```console
-$ chmod +x /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh
+chmod +x /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh
 ```
 # 3. ==== Create a Symbolic Link ====
 ```console
-$ sudo ln -s /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh /usr/local/bin/WOL-14900k
+sudo ln -s /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh /usr/local/bin/WOL-14900k
 ```
 # 4. ==== Use Script ====
 ```console
-$ WOL-14900k
+WOL-14900k
 ```
