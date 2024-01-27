@@ -1,6 +1,8 @@
 # WakeOn
 WakeOn is a program that can wake up a target computer via a command within a local area network. Additionally, it can also detect whether the target computer has completed booting up, and even if certain ports are ready.
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Merriweather&size=30&pause=1000&color=000000&multiline=true&repeat=false&random=false&width=1500&height=120&lines=WakeOn+is+a+program+that+can+wake+up+a+target+computer+via+a+command+within+a+local+area+network.;Additionally%2C+it+can+also+detect+whether+the+target+computer+has+completed+booting+up%2C;and+even+if+certain+ports+are+ready.)](https://git.io/typing-svg)
+
 WakeOn 是一个可以在本地局域网内通过命令唤醒目标电脑的SH脚本，另外还可以检测目标电脑是否已经开机完成，甚至某些端口是否已经准备好。
 
 ## Example: Wake On LAN for 14900k-1517 Workstation
