@@ -19,7 +19,6 @@ https://readme-typing-svg.herokuapp.com/demo/
 -->
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Merriweather&size=30&pause=1000&color=000000&multiline=true&random=false&width=1500&height=200&lines=WakeOn+is+a+software+program+capable+of+awakening+a+target+computer+through+a+command+executed;within+a+local+area+network.+Additionally%2C+it+can+detect+if+the+target+computer+has+finished+booting+up;and+ascertain+the+readiness+of+specific+ports.;WakeOn+%E6%98%AF%E4%B8%80%E4%B8%AA%E8%83%BD%E5%A4%9F%E9%80%9A%E8%BF%87%E5%9C%A8%E5%B1%80%E5%9F%9F%E7%BD%91%E5%86%85%E6%89%A7%E8%A1%8C%E5%91%BD%E4%BB%A4%E6%9D%A5%E5%94%A4%E9%86%92%E7%9B%AE%E6%A0%87%E7%94%B5%E8%84%91%E7%9A%84%E8%BD%AF%E4%BB%B6%E7%A8%8B%E5%BA%8F%E3%80%82%E6%AD%A4%E5%A4%96%EF%BC%8C%E5%AE%83%E8%BF%98%E8%83%BD%E6%A3%80%E6%B5%8B%E7%9B%AE%E6%A0%87%E7%94%B5%E8%84%91%E6%98%AF%E5%90%A6%E5%B7%B2%E5%AE%8C;%E6%88%90%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%B9%B6%E7%A1%AE%E5%AE%9A%E7%89%B9%E5%AE%9A%E7%AB%AF%E5%8F%A3%E7%9A%84%E5%87%86%E5%A4%87%E5%B0%B1%E7%BB%AA%E7%8A%B6%E6%80%81%E3%80%82)](https://www.xaiat.com)
-
 ## Example: Wake On LAN for 14900k-1517 Workstation
 
 ![Wake On LAN for 14900k-1517](./assets/Wake-On-LAN-for-14900k-1517.gif)
