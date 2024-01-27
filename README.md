@@ -24,7 +24,7 @@ sequenceDiagram
     Bob-->>John: Jolly good!|
 ```
 
-# 1.==== Create a New Script ====
+# 1.==== <mark>Create a New Script</mark> ====
 The example path:
 /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh
 
@@ -100,15 +100,15 @@ echo -e "\a"
 # Or use any available command-line audio player to play a specific sound file
 # 或使用任何可用的命令行音频播放工具播放特定的声音文件
 ```
-# 2. ==== Permissions Command ====
+# 2. ==== <mark>Permissions Command</mark> ====
 ```console
 chmod +x /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh
 ```
-# 3. ==== Create a Symbolic Link ====
+# 3. ==== <mark>Create a Symbolic Link</mark> ====
 ```console
 sudo ln -s /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh /usr/local/bin/WOL-14900k
 ```
-# 4. ==== Use Script ====
+# 4. ==== <mark>Use Script</mark> ====
 ```console
 WOL-14900k
 ```
