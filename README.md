@@ -43,7 +43,7 @@ sequenceDiagram
     Bob-->>John: Jolly good!|
 ```
 
-# 1.==== Create a New Script ====
+# 1. ==== Create a New Script ====
 The example path:
 /Users/rolex/Code/WakeOn/WOL-14900k-1517.sh
 
